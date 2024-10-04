@@ -4,12 +4,12 @@
 
 This is just a simple project that deploys ec2 instances on AWS using Terraform 
 
-## Description
+### Description
 
 This project consists of provisioning ec2 instances on AWS Cloud through Terraform,  
 It also uses GitHub Actions as the CI/CD tool to deploy the entire infrastructure on the cloud.
 
-## Usage
+### Usage
 
 To do local tests, terraform can be executed locally in this way:
 
@@ -39,13 +39,13 @@ In case it's necessary to connect to an EC2 instance, it can be done like this:
 chmod 400 key.pem
 ssh -i "key.pem" debian@public-ipv4-dns
 ```
-# Tools Used 
+### Tools Used 
 
 - Terraform
 - GitHub Actions
 - AWS 
 
-## License
+### License
 
 Copyright (c) 2024, Guilherme Oliveira. All rights reserved.
 
