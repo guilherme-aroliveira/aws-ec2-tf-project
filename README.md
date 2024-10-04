@@ -6,8 +6,7 @@ This is just a simple project that deploys ec2 instances on AWS using Terraform
 
 ### Description
 
-This project consists of provisioning ec2 instances on AWS Cloud through Terraform,  
-It also uses GitHub Actions as the CI/CD tool to deploy the entire infrastructure on the cloud.
+This project consists of provisioning ec2 instances on AWS Cloud through Terraform. It also uses GitHub Actions as the CI/CD tool to deploy the entire infrastructure on the cloud.
 
 ### Usage
 
