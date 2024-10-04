@@ -25,9 +25,9 @@ Example of a backend file:
 ```terraform
 bucket = "bucket's name"
 key    = "bucket's arn"
-dynamodb_table = " dynamodb tables's name"
-region = "was region"
-role_arn = "was role to execute terraform with credentials"
+dynamodb_table = "dynamodb tables's name"
+region = "aws region"
+role_arn = "aws role to execute terraform with credentials"
 ```
 The Infrastructure provisioning is performed by a pipeline file (example: pipelines.yml),
 which is responsible for executing a previously created GitHub Actions pipeline. Each pull request will trigger the pipeline.
