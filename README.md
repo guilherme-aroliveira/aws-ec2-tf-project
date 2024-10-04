@@ -1,4 +1,4 @@
-## AWS EC2 Project with Terraform 
+# AWS EC2 Project with Terraform 
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/MIT)
 
